@@ -47,14 +47,26 @@
         }
         h1{
             display: flex;
-            padding-left: 600px;
+            padding-left: 615px;
             margin-top: 40px;
         }
-        img{
-            display: flex;
-            height: 250px;
-            padding-left: 525px;
-            margin-top: 50px;
+
+        .text-container {
+        border: 1px solid #333;
+        padding: 20px;
+        top : -30px;
+        border-radius: 15px;
+        border-color: cyan; 
+        font-size: 16px;
+        line-height: 1.6;
+        }
+        .my-picture {
+            max-width: 250px;
+            position: center;
+            max-height: 200px;
+            bottom: 60%;
+            transform: translate(280%, 10%);
+            border: 1px ;
         }
     </style>
 </head>
@@ -73,15 +85,15 @@
         </nav>
     </header>
 <h1>About</h1>
-<img src="formalpic-removebg-preview (3).png" alt="">
+<img src="formalpic-removebg-preview (3).png" alt="My_Picture" class="my-picture">
     <main>
-        Hello, I'm Sarang Vasugade, a final-year mechanical student from Walchand College of Engineering, Sangli. Originally from Khopoli, District - Raigad, I secured admission here based on my performance in MHT-CET.
-
+        <div class="text-container">
+            Hello, I'm Sarang Vasugade, a final-year mechanical student from Walchand College of Engineering, Sangli. Originally from Khopoli, District - Raigad, I secured admission here based on my performance in MHT-CET.
 In college, I've been active in extracurriculars, serving as an Assistant Web Designer at the Rotaract Club, coordinating a Blood Donation Camp, and participating in a street play for cleanliness awareness in Budhgaon.
-
 Academically, I've contributed to projects, including frontend development for a personal portfolio website and exploring the Four-Wheel Steering Mechanism's design and dynamics.
-
 Beyond academics, I'm passionate about new technologies, writing, and sports—both playing and exploring tactical aspects. My journey has cultivated creative leadership, effective communication, and rapid learning abilities.
+        </div>
+        
     </main>
 </body>
 </html>
