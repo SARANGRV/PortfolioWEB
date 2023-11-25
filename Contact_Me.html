@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sarang - Persaonal Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 43);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(0, 0, 47);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: blueviolet;
+            font-size: 1.1rem;
+        }
+        h1{
+            display: flex;
+            padding-left: 600px;
+            margin-top: 40px;
+        }
+        .contactform{
+            display: flex;
+            padding: 10px 0;
+        }
+        .form-label1 {
+            display: flex;
+            padding-left: 500px;
+            margin-top: 40px; 
+            
+        }
+        .form-control1 {
+            margin-left: 620px;
+            height: 25px;
+        }
+        .form-label2{
+            display: flex;
+            margin-top: 100px;
+            margin-left: -287px;
+        }
+        .form-control2 {
+            margin-left: -167px;
+        }
+        .btn {
+            height: 25px;
+            width: 70px;
+            margin-top: 200px;
+            margin-left: -160px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> Sarang Vasugade </div>
+            <div class="right"> 
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="About.html"> About</a></li>
+                    <li><a href="Projects.html"> Projects </a></li>
+                    <li><a href="Contact_Me.html"> Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <h1 class="conheading">Contact Me</h1> 
+        <div class="contactform">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label1">Email address:</label>
+            <input type="email" class="form-control1" id="exampleFormControlInput1" placeholder="eg.name@example.com">
+          </div>
+          <div class="mb-4">
+            <label for="exampleFormControlTextarea1" class="form-label2">Message:</label>
+            <textarea class="form-control2" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <input class="btn" type="submit" value="Submit">
+        </div>
+</body>
+</html>

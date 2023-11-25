@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sarang - Persaonal Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 43);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(0, 0, 47);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: blueviolet;
+            font-size: 1.1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> Sarang Vasugade </div>
+            <div class="right"> 
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="About.html"> About</a></li>
+                    <li><a href="Projects.html"> Projects </a></li>
+                    <li><a href="Contact_Me.html"> Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    PortFolio Website
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Developed the front end of my personal portfolio website, employing best practices in HTML and CSS to 
+                    create a visually appealing and intuitive user interface.Utilized frameworks, such as Bootstrap, to enhance development efficiency and maintain code consistency.
+                    <a href="https://drive.google.com/drive/folders/1ZvYNw8DhupTVz4-SfgCkfEUJbFMXCOvs?usp=sharing">Project Related Files</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Four-Wheel Steering Mechanism
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>(B. Tech / Faculty: Prof. K. H. Inamdar)</strong> Designed the parts of Four-Wheel Steering Mechanism in Creo Parametric.
+                  The purpose of this project was to study the whole design and benefits and limitations of it.
+                  Made a report about the problem statement, design, limitations and advantages. Additionally, the report 
+                  discusses the disadvantages associated with this system, providing valuable insights for future research and 
+                  development.
+                  <a href="https://drive.google.com/drive/folders/1TLjpP6G1VIzQf79ehIMtBLhpgGDauQHA?usp=sharing">Project Related files</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
